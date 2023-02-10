@@ -12,5 +12,7 @@ endif()
 ament_auto_package(
   INSTALL_TO_SHARE
   launch
+  param
   rviz
+  urdf
 )

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<robot name="vehicle" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base_link"/>
+
+  <xacro:include filename="$(find apm_sensor_kit_description)/urdf/sensors.xacro"/>
+
+</robot>
